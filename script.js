@@ -18,7 +18,7 @@ const getcountrydata = function (coun) {
           <div class="country__data">
             <h3 class="country__name">${data.name['common']}</h3>
             <h4 class="country__region">${data.region}</h4>
-            <p class="country__row"><span>👫</span>${data.population}</p>
+            <p class="country__row"><span>👫</span>${(+data.population/100000).toFixed(1)} M</p>
             <p class="country__row"><span>🗣️</span>${
               Object.values(data[Object.keys(data)[15]])[0]
             }</p>
