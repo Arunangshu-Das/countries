@@ -32,5 +32,5 @@ const getcountrydata = function (coun) {
   });
 };
 getcountrydata('russia');
-getcountrydata('India');
+getcountrydata('japan');
 getcountrydata('usa');
